@@ -3,37 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+  <header>
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
 
-  Login
-  Register
+    <div class="hamburger">
+      <img class="hamburger-icon" src="images/icon-menu.svg" alt="hamburger-menu">
+    </div>
 
-  Make remote work
+    <div class="side-bar">
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
+      <div class="close-menu">
+        <img src="images/icon-close-menu.svg" alt="hamburger-closing">
+      </div>
   
-  <div class="attribution">
+        <div class="sidebar-primary-links">
+          <ul>
+            <li>
+              Features
+              <img class="primary-arrow" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+  
+              <ul class="primary-dropdown hide">
+                <li>
+                  <img src="images/icon-todo.svg" alt="icon-todo">
+                  Todo List   
+                </li>
+                <li>
+                  <img  src="images/icon-calendar.svg" alt="icon-calendar">
+                  Calendar
+                </li>
+                <li>
+                  <img src="images/icon-reminders.svg" alt="icon-reminders">
+                  Reminders
+                </li>
+                <li>
+                  <img src="images/icon-planning.svg" alt="icon-planning">
+                  Planning
+                </li>
+              </ul>
+  
+            </li>
+            <li>
+              Company
+              <img class="secondary-arrow" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+  
+              <ul class="secondary-dropdown hide">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+  
+            </li>
+  
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+      
+      <div class="sidebar-secondary-links">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="register">Register</a>
+      </div> 
+    </div>
+  </header>
+
+  
+  <section>
+    <div class="hero-image">
+      <img src="images/image-hero-mobile.png" alt="image-hero-mobile">
+    </div>
+    <div class="section2">
+
+      <p>Make remote work</p>
+
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+
+      <button>Learn more</button>
+
+    <div class="clients">
+      <img src="images/client-databiz.svg" alt="client-databiz">
+      <img src="images/client-audiophile.svg" alt="client-audiophile">
+      <img src="images/client-meet.svg" alt="client-meet">
+      <img src="images/client-maker.svg" alt="client-maker">
+    </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Naanaa Abdelmalek</a>.
+  </div> -->
+  <script src="app.js"></script>
 </body>
 </html>
