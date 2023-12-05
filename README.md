@@ -28,13 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![Screenshot](./images/screenshot.jpeg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://naanaaabdelmalek.github.io/Intro-section-with-dropdown-navigation/](https://naanaaabdelmalek.github.io/Intro-section-with-dropdown-navigation/)
 
 ## My process
 
@@ -44,39 +43,40 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Vanilla Javascript
 
 
 ### What I learned
 
 During the completion of this Frontend Mentor challenge, I gained valuable experience and knowledge in several key areas:
 
-- HTML Structure:
+#### HTML Structure:
 
 I reinforced my understanding of semantic HTML and how to structure content for better accessibility and SEO.
 
-- CSS Styling:
+#### CSS Styling:
 
 Improved my styling skills by implementing responsive design principles using media queries.
 Enhanced my proficiency in CSS Flexbox/Grid for efficient layout management.
 
-- JavaScript DOM Manipulation:
+#### JavaScript DOM Manipulation:
 
 Applied JavaScript for dynamic content updates and interactive features on the client side.
 Learned how to select and manipulate HTML elements using DOM methods and events.
 
-- Responsive Design:
+#### Responsive Design:
 
 Ensured the project is accessible and looks great on various devices and screen sizes following the challange style guide.
 
-- Version Control with Git:
+#### Version Control with Git:
 
 Practiced using Git for version control, creating branches, committing changes, and pushing updates to a remote repository.
 
-- Problem-Solving Skills:
+#### Problem-Solving Skills:
 
 Encountered and resolved coding challenges, which improved my problem-solving abilities.
 
-- Documentation:
+#### Documentation:
 
 Emphasized the importance of maintaining clear and concise documentation within the code for better collaboration and future reference.
 
@@ -85,12 +85,12 @@ Emphasized the importance of maintaining clear and concise documentation within 
 
 I'm excited to continue my development journey and explore new technologies and tools. In future projects, I plan to:
 
-- CSS Frameworks:
+#### CSS Frameworks:
 
 Explore the use of CSS frameworks such as Tailwind CSS to streamline the styling process and enhance efficiency.
 Dive into the Sass preprocessor for more advanced and modular styling capabilities.
 
-- JavaScript Foundation:
+#### JavaScript Foundation:
 
 Strengthen my JavaScript foundation by working on more complex projects to deepen my understanding of the language in order to start learning and applying JS libraries such as React.js to build dynamic and interactive user interfaces.
 
