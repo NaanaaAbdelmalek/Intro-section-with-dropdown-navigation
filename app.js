@@ -14,7 +14,6 @@ const SecondaryNavDropdown = document.querySelector(".nav-secondary-dropdown");
 
 
 
-
 // Opening the mobile Side bar
 function OpenSideBar() {
     document.querySelector(".side-bar").style.left = "36%";
